@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles_only_class.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to ARMY Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!--To do: Wifi Icon-->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span> 06:13</span>
+      </div>
+      <div class="status-bar__column">
+        <!--To do: Location arrow Icon-->
+        <i class="fas fa-location-arrow fa-sm"></i>
+        <span>80%</span>
+        <!--To do: Battery Icon-->
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <!--To do: Lightning Icon-->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to <span>Butter Talk</span></h1>
+      <p class="welcome-header__text">
+        If you have a Butter Talk Account, log in with your email or phone
+        number.
+      </p>
+    </header>
+
+    <form class="login-form" action="friends.html" method="get">
+      <input
+        class="login-form__input"
+        required
+        type="text"
+        placeholder="Email or Phone number"
+      />
+      <input
+        class="login-form__input"
+        required
+        type="password"
+        placeholder="Password"
+      />
+      <button class="login-form__btn" value="sign-up">Sign Up</button>
+      <button class="login-form__btn" value="log-in">Log In</button>
+      <a class="login-form__a" href="#">Find Butter Talk Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
