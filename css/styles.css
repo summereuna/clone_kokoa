@@ -4,73 +4,31 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/alt-screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/no-mobile.css";
+
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat-room.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 100%;
+  /*  height: 1000vh;*/
+  padding-bottom: 70px;
+  /*Find 섹션 때문에 하단에 fix된 nav bar 길이 맞춰서 임의로 추가함*/
 }
 
-.welcome-header {
-  margin: 90px 0px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight: 600;
-}
-
-.welcome-header__title {
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.welcome-header__title span {
-  font-family: "Pattaya", sans-serif;
-  font-size: 27px;
-}
-
-.welcome-header__text {
-  width: 60%;
-  opacity: 0.7;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 30px;
-}
-
-#login-form input {
-  padding: 15px 0px;
-  border: none;
-  font-size: 18px;
-  margin-bottom: 25px;
-}
-
-#login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  transition: border-color 0.3s ease-in-out;
-}
-
-#login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-#login-form input:focus {
-  border-color: var(--yellow);
-}
-
-#login-form input[type="submit"] {
-  background-color: var(--yellow);
-  cursor: pointer;
-  padding: 20px 0px;
-  border-radius: 5px;
-}
-
-#login-form a {
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-  font-size: 13px;
+.main-screen {
+  margin-top: 110px;
+  padding: 0px var(--horizontal-space);
 }

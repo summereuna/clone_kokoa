@@ -1,0 +1,27 @@
+.chats-commercial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #e1e0de;
+  border-radius: 10px;
+}
+
+.chats-commercial__text {
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+.chats-commercial h4 {
+  font-weight: 600;
+  padding-bottom: 3px;
+}
+
+.chats-commercial span {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.chats-commercial img {
+  width: 300px;
+  border-radius: 10px;
+}
