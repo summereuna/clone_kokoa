@@ -134,17 +134,18 @@
   border: var(--main-border);
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
 }
 
 .reply__colum:last-child > i,
 .reply__colum:last-child button {
   position: absolute;
-  right: -18px;
-  top: 3.45px;
+  right: 4px;
+  top: 3.3px;
 }
 
 .reply__colum:last-child > i {
-  right: 20px;
+  right: 40px;
   top: 12px;
 }
 
