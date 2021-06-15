@@ -1,6 +1,7 @@
 .icon-row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
   color: #191919;
 }
 
@@ -15,5 +16,6 @@
 }
 
 .icon-row__icon span {
-  margin-top: 18px;
+  margin: 18px 0;
+  text-align: center;
 }
